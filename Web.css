@@ -1,0 +1,108 @@
+  *{
+    font-family: Times New Roman;
+  }
+   .top{
+      position:relative;
+      left: 0px;
+      background-color: yellow;
+      width: 100%;
+      height: 10vh;
+      font-family: Times New Roman;
+      display:flex;
+      place-items: center;
+      justify-content: center;
+      text-align: center;
+      border: 5px solid blue;
+      border-radius:20px;
+
+    
+      
+      
+      
+    }
+    .exam, .logo{
+      height: 10vh;
+      display: flex;
+      position: relative;
+      left: 0px;
+      top: 1px;
+    }
+    .exam{
+      border-radius: 0px 0px 0px 10vh;
+    }
+    h1{
+      text-shadow: 4px 4px 6px blue;
+    }
+    ul{
+      padding: 5px;
+      margin: 5px;
+      display:inline-block;
+      float: right;
+      list-style-type: circle;
+      background-color: aqua;
+    }
+    nav{
+      
+      display:inline-block;
+      place-items: right;
+      float: right;
+    }
+    .telegram{
+      height: 25px;
+    }
+    .footer{
+      position: relative;
+      top: 0vh;
+      bottom: 1px;
+      background-color: yellow;
+      width: 100%;
+      height: 10vh;
+      font-family: Times New Roman;
+      display:flex;
+      place-items: center;
+      justify-content: center;
+      text-align: center;
+      border: 5px solid blue;
+      border-radius:20px;
+    }
+    main{
+      background-color: lightblue;
+      border-radius: 50px;
+    }
+    .Certificate{
+      height: 25vh;
+    }
+    .oduu{
+      color: red;
+      text-shadow: 4px 4px 4px black;
+      text-align: center;
+    }
+  .container{
+    width:100%;
+    height:100vh;
+    background:;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+  span{
+    color: #222;
+    display:inline;
+    text-decoration:underline;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    transform: rotate(360deg);
+    animation: animat 10s linear 1;
+  }
+  @keyframes animat{
+    0%{
+      transform: rotateY(360deg) scale(0);
+    }
+    50%{
+      transform: rotatez(360deg) scale(1);
+    }
+    100%{
+      transform: rotate(0deg) scale(0);
+    }
+  }

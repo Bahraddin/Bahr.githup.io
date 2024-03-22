@@ -1,0 +1,51 @@
+
+.continear{
+  
+  border: 3px solid red;
+  border-bottom: 50px solid red;
+  height: 400px;
+  width: 300px;
+  padding: 3px 3px 50px 3px;
+margin: 3px 3px 50px 3px ;
+}
+label{
+  font-weight: bold;
+  position:relative; left: 10px;
+}
+.img{
+  height: 150px;
+  width: 100%;
+  border-radius: 20px;
+}
+#in{
+  border: 1px solid red;
+  width: 280px;
+  height: 30px;
+  position:relative; left: 10px;
+}
+img{
+  height: 150px;
+  position: relative; left: 100px;
+   border-radius: 50%;
+}
+#submit{
+  margin:20px 10px 20px 10px; padding: 10px; 
+  width: 280px;
+background-color: red;
+}
+#chek{
+  height:10px;
+  width: 10px;
+  position: relative; left:10px;
+  
+}
+body{
+  place-content: center;place-content: center;
+align-items: center;
+display: flex;
+justify-content: center;
+}
+input: cheked {
+  box-shadow: 2px 2px 4px black;
+}
+  
